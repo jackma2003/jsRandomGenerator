@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link js and css -->
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<title>Fortune Generator</title>
+</head>
+
+<body>
+<h1><center>Fortune Generator</center></h1>
+
+<!-- Input for the visitor's name -->
+<label for="visitorName">Enter your name:</label>
+<input type="text" id="visitorName" name="visitorName">
+
+<!-- Button to generate content -->
+<button onclick="generate(document.getElementById('visitorName').value)">Generate Fortune</button>
+
+<!-- Element where output will be displayed -->
+<div id="output"></div>
+
+</body>
+</html>
